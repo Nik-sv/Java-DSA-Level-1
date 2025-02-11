@@ -1,23 +1,29 @@
 package BASICS;
 
+import java.util.Scanner;
+
 public class Digits_Of_Number {
-
-    // Agar aap koi method banana chahte hain, to sahi tarah se define karein:
-    public static int sumOfValues(int z, int s) {
-        int x = z + s;
-        return x;
-    }
-
     public static void main(String[] args) {
-        // Variables declare karna jaruri hai:
-        int z = 1;
-        int s = 2000000000;
+        Scanner sc = new Scanner(System.in);
 
-        // Agar aap calculation karna chahte hain:
-        int result = sumOfValues(z, s);
+        int n = sc.nextInt();
 
-        // Output print karna:
-        System.out.println("Nikhil Tiwari");
-        System.out.println("Sum: " + result);
+        int node = 0;
+        int temp = n;
+
+        while (temp != 0){
+            temp = temp/10;
+            node++;
+        }
+
+        int div = (int)Math.pow(10 , node - 1);
+
+        while (div != 0){       // n nahi likna hai divisor ki jagahe nahibtho gadbad hogi aur nomber 1000 ya 7600 input lene par sahi se print nahi karega
+           int q = n / div;
+            System.out.println(q);
+
+            n = n % div;
+            div = div / 10;
+        }
     }
 }
