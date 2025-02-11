@@ -18,7 +18,7 @@ public class Digits_Of_Number {
 
         int div = (int)Math.pow(10 , node - 1);
 
-        while (div != 0){       // n nahi likna hai divisor ki jagahe nahibtho gadbad hogi aur nomber 1000 ya 7600 input lene par sahi se print nahi karega
+        while (div != 0){       // n nahi likna hai divisor ki jagahe nahi tho gadbad hogi aur number 1000 ya 7600 input lene par sahi se print nahi karega
            int q = n / div;
             System.out.println(q);
 
