@@ -24,7 +24,7 @@ public class Smallest_number_following_Pattern {
                 num++;
 
                 while (st.size() > 0){
-                    System.out.print(st.pop());
+                    System.out.println(st.pop());
                 }
             }
         }
