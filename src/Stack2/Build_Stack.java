@@ -137,7 +137,7 @@
 //
 //        Fixed Code:
 
-package Stack;
+package Stack2;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
