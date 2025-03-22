@@ -142,6 +142,7 @@ public class MergeSort_LinkedList {
 
         System.out.println("Enter the number of elements:");
         int n = sc.nextInt();
+
         System.out.println("Enter the elements:");
         for (int i = 0; i < n; i++) {
             list.addLast(sc.nextInt());
