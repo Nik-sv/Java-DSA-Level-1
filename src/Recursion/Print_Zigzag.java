@@ -6,7 +6,7 @@ public class Print_Zigzag {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        pzz(n);
+        pzz(n);  // pzz = print zigzag
     }
 
     public static void pzz (int n){
@@ -14,11 +14,6 @@ public class Print_Zigzag {
 
 
         // Eulars path
-
-
-
-
-
 
 
 
